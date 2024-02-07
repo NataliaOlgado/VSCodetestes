@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2020/12/espaco-sideral-viktorovpro-shutterstock.jpg);
+  }
+  
+  #titulo{
+   color: whitesmoke;
+   background-image: linear-gradient(to bottom, rgb(244, 244, 245), rgba(179, 208, 235, 0.219), rgb(0, 0, 0));
+   margin-top: 150px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 60px;
+    -webkit-background-clip: text;   
+    background-clip: text;
+    color: transparent;
+    font-size: 8rem;
+    font-weight: bold;
+    line-height: 1.0;
+  }
+
+
+  .subTitulo{
+  color:white;
+  background-image: linear-gradient(to bottom, rgb(244, 244, 245), rgba(179, 208, 235, 0.219), rgb(46, 69, 121));
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-background-clip: text;   
+    background-clip: text;
+    color: transparent;
+  }
+
+.postarbotao{
+    color: rgb(255, 253, 253);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+  .texto{
+ color:white;
+font-family: Arial, Helvetica, sans-serif;
+     }
+  
+  .center{
+      display: flex;
+      justify-content: center;
+  }
+
+  .left{
+    display: flex;
+    justify-content:left
+  }
+
+
+  .menu{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .img1{
+      margin-left: 20px;
+  }
+  
+  .select{
+   margin-right: 100px;
+   font-weight: bold;
+
+  }
+  button:hover{
+   background-color: rgb(183, 187, 211);
+   cursor:grab;
+  }
+  
+  .transpa{
+     background-color: rgba(50, 50, 50, 0.5);
+  }
+
+  
+  .container {
+    width: 500px; 
+    text-overflow: ellipsis; 
+  }
