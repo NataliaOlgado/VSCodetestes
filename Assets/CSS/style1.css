@@ -1,67 +1,106 @@
 body {
-    background-color: black;
-    background-image: url(https://img.freepik.com/vetores-gratis/projeto-de-respingos-de-aquarela-de-cor-arco-iris-0307_1048-19245.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1707264000&semt=sph);
-    background-size: 100%;
-  }
-  
-  #titulo{
-   color: whitesmoke;
-   background-image: linear-gradient(to bottom, rgb(104, 18, 189), rgb(197, 115, 216), rgb(241, 236, 243));
-   margin-top: 150px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 60px;
-    -webkit-background-clip: text;   
-    background-clip: text;
-    color: transparent;
-    font-size: 5rem;
-    font-weight: bold;
-    line-height: 1.0;
-  }
+  background-color: black;
+  background-image: url(https://img.freepik.com/vetores-gratis/projeto-de-respingos-de-aquarela-de-cor-arco-iris-0307_1048-19245.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1707264000&semt=sph);
+  background-size: 100%;
+}
+
+#titulo{
+ color: whitesmoke;
+ background-image: linear-gradient(to bottom, rgb(104, 18, 189), rgb(197, 115, 216), rgb(241, 236, 243));
+ margin-top: 150px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 60px;
+  -webkit-background-clip: text;   
+  background-clip: text;
+  color: transparent;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.0;
+}
 
 
-  .subTitulo{
-  color: black;
+.subTitulo{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.faleconosco{
+  color: blue;
   font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .center{
-      display: flex;
-      justify-content: center;
-  }
+}
 
-  .left{
+.center{
     display: flex;
-    justify-content:left
-  }
+    justify-content: center;
+}
+
+.left{
+  display: flex;
+  justify-content:left
+}
 
 
-  .menu{
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  .img1{
-      margin-left: 20px;
-  }
-  
-  .select{
-   margin-right: 50px;
-  }
-  button:hover{
-   background-color: rgb(205, 104, 233);
-   cursor:grab;
-  }
-  
-  .transpa{
-     background-color: rgba(50, 50, 50, 0.5);
-  }
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
 
-  .botaopostar {
+.img1{
+    margin-left: 50px;
+}
 
-    background-color: rgb(173, 98, 151)
-  }
+.img2{
+  margin-left: 100px;
+}
 
-  .container {
-    width: 500px; 
-    text-overflow: ellipsis; 
-  }
+.select{
+ margin-right: 50px;
+}
+button:hover{
+ background-color: rgb(205, 104, 233);
+ cursor:grab;
+}
+
+.transpa{
+   background-color: rgba(50, 50, 50, 0.5);
+}
+
+.botaopostar {
+
+  background-color: rgb(173, 98, 151)
+}
+
+.container {
+  width: 2000px; 
+  text-overflow: ellipsis; 
+  color:black
+}
+
+a{
+  text-decoration: none;
+  color: azure;
+}
+
+.container2 {
+  margin-left: 610px;
+}
+
+.ml-50 {
+  margin-right: 100px;
+
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}  
+
+label{
+  color: black;
+}
+
+p{
+  color: black;
+}

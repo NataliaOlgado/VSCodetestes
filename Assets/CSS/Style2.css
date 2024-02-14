@@ -59,7 +59,7 @@ font-family: Arial, Helvetica, sans-serif;
   }
   
   .select{
-   margin-right: 100px;
+   margin-right: 50px;
    font-weight: bold;
 
   }
@@ -73,7 +73,39 @@ font-family: Arial, Helvetica, sans-serif;
   }
 
   
-  .container {
-    width: 500px; 
-    text-overflow: ellipsis; 
+  .container2 {
+    margin-left: 320px;
+    color:azure
   }
+
+  container {
+    margin-right: 500px;
+    text-overflow: ellipsis; 
+    color:azure
+  }
+
+  a{
+    text-decoration: none;
+    color: azure;
+}
+
+.ml-50 {
+    margin-left: 100px;
+ }
+
+ .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+ }  
+
+ label{
+    color: azure;
+ }
+
+ p{
+    color: azure;
+ }
+
+ 
